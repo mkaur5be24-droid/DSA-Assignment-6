@@ -1,0 +1,9 @@
+void printWithRepeat(){
+    if(!head) return;
+    Node *t = head;
+    do{
+        cout << t->data << " ";
+        t = t->next;
+    }while(t != head);
+    cout << head->data;
+}
